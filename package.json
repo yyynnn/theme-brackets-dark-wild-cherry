@@ -1,0 +1,30 @@
+{
+    "title": "Dark Wild Cherry",
+    "name": "dark-wild-chery",
+    "description": "Dark Wild Cherry theme by Omar Mashaal, adaptation for Brackets",
+    "version": "1.0",
+    "author": "Omar Mashaal <omar@teacups.io>, adaptation by Sergey Nikolaev <redredseas@gmail.com>",
+    "homepage": "https://github.com/mashaal/wild-cherry",
+    "keywords": [
+        "extension",
+        "brackets",
+        "wild",
+        "cherry",
+        "dark",
+        "theme",
+        "berry",
+        "hot"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mashaal/wild-cherry"
+    },
+    "engines": {
+        "brackets": ">=1.0.0"
+    },
+    "theme": {
+        "file": "DarkWildCherry.less",
+        "dark": true
+    },
+    "screenshot": "ss/dwc-js.PNG"
+}
