@@ -1,6 +1,6 @@
 # Dark Wild Cherry Brackets Theme
 
-* Dark Wild Cherry is a juicy, high contrast theme, that is easy to read. originaly made by Omar Mashaal. "A fairy-tale inspired theme, with tasteful use of emojis - Zsh, iTerm, Sublime, Atom, Slack, Mou, PuTTY, & Notepad++"
+* Dark Wild Cherry is a juicy, high contrast theme, that is easy to read. Original made by Omar Mashaal. This version is slightly customized. "A fairy-tale inspired theme, with tasteful use of emojis - Zsh, iTerm, Sublime, Atom, Slack, Mou, PuTTY, & Notepad++"
 
 
 # Recommended Extensions
