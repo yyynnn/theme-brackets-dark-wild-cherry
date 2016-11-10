@@ -30,10 +30,10 @@ Visit http://brackets-themes.github.io/ to see the latest install instructions.
 The following screen shots were not taken on a clean install but instead using some of the recommended extensions above.
 
 ### HTML
-![DarkWildCherry html](ss/dwc-html.PNG)
+![DarkWildCherry html](ss/dwc-html.png)
 
 ### CSS
-![DarkWildCherry css](ss/dwc-css.PNG)
+![DarkWildCherry css](ss/dwc-css.png)
 
 ### JavaScript
-![DarkWildCherry js](ss/dwc-js.PNG)
+![DarkWildCherry js](ss/dwc-js.png)
