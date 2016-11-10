@@ -9,14 +9,15 @@
     @comment: #6272a4;
     @rb-blue: #44314f;
     @rb-darkblue: #2b1f32;  /* Currently Unused */
-    @rb-lightblue: #745586;
-    @rb-magenta: #d53362;
-    @rb-orange: #F08047;
+    @rb-lightblue: #9d70b7;
+    @rb-magenta: #ffffff;
+    @rb-orange: #ffe17f;
     @rb-pink: #d85896;      /* Currently Unused */
-    @rb-red: #af2018;
+    @rb-red: rgb(255, 0, 108);
     @rb-violet: #6c71c4;    /* Currently Unused */
-    @rb-yellow: #F4C20B;
+    @rb-yellow: #66ddca;
     @rb-white: #fff;
+    @rb-pinky: #fa65a4;
 
 .CodeMirror {
     .CodeMirror-scroll {
@@ -37,12 +38,15 @@
         border-left: 1px solid @rb-white !important;
     }
     .CodeMirror-matchingbracket {
-        color: @rb-magenta !important;
+        color: #f02ca5 !important;
         background-color: transparent;
     }
     .CodeMirror-activeline-background {
         background: lighten(@background, 5%);
     }
+    
+    .CodeMirror-foldgutter-open:after{content:"˅";font-size:1.32em;color:#767676}.CodeMirror-foldgutter-folded:after{content:"+";font-size:1.3em;font-weight:700;background:0 0!important;color:#1dff00!important;text-shadow:0 0 10px #1dff00}.CodeMirror-foldgutter-folded{padding-top:2px}.CodeMirror-foldgutter-open{padding-top:1px}.CodeMirror-foldmarker{display:inline-block;border-radius:.75em;padding:0 2px;border:0;font-size:.75em;color:#1dff00!important;text-shadow:0 0 10px #1dff00;background:0 0}.CodeMirror-foldmarker:after{content:'\2022\2022\2022';position:relative;top:1px}
+    
     .CodeMirror-searching {
         background-color: fade(@rb-orange, 90%);
         border: 1px dashed white;
@@ -75,16 +79,25 @@
     color: @rb-yellow;
 }
 .cm-attribute,.cm-property {
-    color: #66d9ef;
+    color: #44d365;
 }
-.cm-variable,.cm-variable-3,.cm-qualifier,.cm-def,.cm-operator {
+.cm-variable,.cm-variable-3,.cm-def,.cm-operator {
     color: @rb-white;
 }
-.cm-variable-2,.cm-tag {
-    color: @brightgreen;
+
+.cm-qualifier{
+    color: #b3ea36;
 }
-.cm-builtin,.cm-special {
-    color: #ff9d00;
+
+.cm-variable-2,.cm-tag {
+    color: @rb-pinky;
+}
+.cm-builtin{
+    color: #00ff31;
+}
+
+.cm-special {
+    color: #5800ff;
 }
 .CodeMirror-matchingtag {
     color: @rb-white;
