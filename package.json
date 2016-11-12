@@ -4,7 +4,7 @@
     "description": "Dark Wild Cherry theme by Omar Mashaal, adaptation for Brackets",
     "version": "1.0.0",
     "author": "Omar Mashaal <omar@teacups.io>, adaptation by Sergey Nikolaev <redredseas@gmail.com>",
-    "homepage": "https://github.com/mashaal/wild-cherry",
+    "homepage": "https://github.com/yyynnn/theme-brackets-dark-wild-cherry",
     "keywords": [
         "extension",
         "brackets",
@@ -17,7 +17,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/mashaal/wild-cherry"
+        "url": "https://github.com/yyynnn/theme-brackets-dark-wild-cherry"
     },
     "engines": {
         "brackets": ">=1.0.0"
